@@ -11,10 +11,7 @@
     width: 0px;
     height: 0px;
 }
-::-webkit-scrollbar-button{
-    width: 0px;
-    height: 0px;
-}
+
 img{
     width: 100vh;
 }
@@ -26,6 +23,7 @@ a{
     text-decoration: none;
     font-weight: bolder;
     color: white;
+    width: 100dvw;
 }
 
 a:hover{
