@@ -12,6 +12,7 @@ body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main{
@@ -42,11 +43,7 @@ iframe#tela{
 
 
 section#redes-sociais img{
-    position: relative;
-    top: -470px;
-    left: 320px;
-
-
+    text-align: right;
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -56,6 +53,8 @@ section#redes-sociais img{
 
 section#redes-sociais img:hover{
     border: 2px solid white;
-    transition: 1s;
+    transform: translate(3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: 0.5s;
     
 }
